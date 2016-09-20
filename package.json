@@ -1,0 +1,19 @@
+{
+  "name": "hw19_nytreact",
+  "version": "1.0.0",
+  "description": "Week 19 HW - NYT React Search (NodeJS, ExpressJS, ReactJS, MongoDB, Mongoose)",
+  "main": "public/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emok032/hw19_nytreact.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emok032/hw19_nytreact/issues"
+  },
+  "homepage": "https://github.com/emok032/hw19_nytreact#readme"
+}

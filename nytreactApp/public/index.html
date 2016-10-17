@@ -1,0 +1,36 @@
+`<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>NYT React</title>
+
+	<!-- Here we include bootstrap. This will be made available to all of the generated HTML/JS that React generates-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<style>
+	a {
+	  background-color: #FFF;
+	  font-weight: bold;
+	  padding: 10px;
+	  display: inline-block;
+	}
+	a:hover {
+	  background-color: #ABA;	
+	}
+	.active {
+		 background-color: #BCF;
+	}		
+	</style>
+	
+</head>
+
+<body>
+	<div class="container" id="app">
+		
+		<!-- This is where React will deploy react components -->
+
+	</div>
+	<!-- react will will be transpiled all js code into this bundle.js file -->
+	<script src="bundle.js"></script>
+	
+</body>
+</html>

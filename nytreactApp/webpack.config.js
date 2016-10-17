@@ -1,13 +1,12 @@
 module.exports = {
   
   // This code will be compiled 
-  entry: "./app/app.js",
+  entry: "./app/app.jsx",
 
   // Then output into this file
   output: {
     filename: "public/bundle.js"
   },
-
 
   // This will be what we do
   module: {
@@ -22,6 +21,8 @@ module.exports = {
         }
       }
     ]
+  },
+  resolve: {
+    extensions: ['', '.js', '.jsx']
   }
-
 }
